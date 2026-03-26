@@ -1,16 +1,193 @@
-# Welcome to your Lovable project
+ML-Powered Intelligent Workload Balancer for Distributed Teams
 
-## Project info
+Project Overview
 
-**URL**: https://lovable.dev/projects/75a9cc3f-b534-4d29-b7d6-ffc521de0c5e
+The ML-Powered Intelligent Workload Balancer is a smart workforce management system designed to distribute tasks efficiently among employees in distributed and remote teams. The system uses workload analysis and intelligent task allocation algorithms to assign tasks based on employee skills, availability, workload, and task priority.
 
-## How can I edit this code?
+The system also monitors employee performance, detects overload conditions, and provides performance analytics through interactive dashboards.
 
-There are several ways of editing your application.
+Objectives
 
-**Use Lovable**
+To balance workload among employees
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/75a9cc3f-b534-4d29-b7d6-ffc521de0c5e) and start prompting.
+To prevent employee overload
+
+To improve team productivity and efficiency
+
+To automate task allocation using intelligent algorithms
+
+To provide performance analytics for decision making
+
+Features
+
+Intelligent Task Allocation
+
+Workload Balancing
+
+Overload Detection
+
+Admin Dashboard
+
+Employee Dashboard
+
+Manager Dashboard
+
+Performance Analytics Dashboard
+
+Workload Visualization Charts
+
+Timezone-based Task Scheduling
+
+Work Hours Tracking
+
+Real-time Task Monitoring
+
+Technologies Used
+
+Layer
+
+Technology
+
+Frontend
+
+React, TypeScript, Tailwind CSS
+
+Backend
+
+Node.js, Express.js
+
+Database
+
+SQL
+
+Charts
+
+Chart.js
+
+Version Control
+
+GitHub
+
+Project Structure
+
+ML-Powered-Intelligent-Workload-Balancer
+│
+├── frontend/      → User interface and dashboards
+├── backend/       → Server and workload allocation logic
+├── database/      → Database schema and data
+├── docs/          → Documentation and execution guide
+├── screenshots/   → Output screenshots
+├── README.md
+├── LICENSE
+└── .gitignore
+
+System Modules
+
+User Authentication Module
+
+Task Management Module
+
+Intelligent Task Allocation Module
+
+Workload Analysis Module
+
+Performance Monitoring Module
+
+Overload Detection Module
+
+Reporting and Analytics Module
+
+How to Run the Project
+
+Step 1: Clone the Repository
+
+git clone https://github.com/your-username/ML-Powered-Intelligent-Workload-Balancer
+
+Step 2: Install Backend Dependencies
+
+cd backend
+npm install
+node server.js
+
+Step 3: Install Frontend Dependencies
+
+cd frontend
+npm install
+npm run dev
+
+Step 4: Open in Browser
+
+http://localhost:8080
+
+Workload Allocation Logic
+
+The system assigns tasks to employees based on:
+
+Employee skill match
+
+Current workload
+
+Task priority
+
+Task deadline
+
+Employee availability
+
+Timezone differences
+
+The system calculates workload score and assigns tasks to the employee with the lowest workload score and highest skill match.
+
+Performance Metrics
+
+The system evaluates performance using:
+
+Task completion rate
+
+Workload distribution
+
+Employee efficiency
+
+Overload frequency
+
+Task delay rate
+
+Results
+
+The system successfully:
+
+Reduced employee overload
+
+Improved task distribution
+
+Increased team efficiency
+
+Provided real-time performance insights
+
+Automated task allocation process
+
+Conclusion
+
+The ML-Powered Intelligent Workload Balancer system helps organizations manage distributed teams more efficiently by automatically assigning tasks based on workload and skills. The system improves productivity, reduces employee burnout, and ensures balanced task distribution among team members.
+
+Future Enhancements
+
+Integration with real-time collaboration tools
+
+AI-based task duration prediction
+
+Mobile application version
+
+Advanced analytics using machine learning models
+
+Author
+
+Tejashri
+
+Team Members
+
+License
+
+This project is developed for academic and research purposes.
 
 Changes made via Lovable will be committed automatically to this repo.
 
